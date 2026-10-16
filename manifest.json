@@ -1,0 +1,21 @@
+[
+  {
+    "guid": "a58aa5a3-de24-416a-85d7-5117467f6969",
+    "name": "Playlist Permissions Controller",
+    "description": "Manage Jellyfin playlist edit permissions, tags and public access (admin only).",
+    "overview": "Admin-only playlist permission manager.",
+    "owner": "I-G-1-1",
+    "category": "General",
+    "imageUrl": "https://raw.githubusercontent.com/I-G-1-1/jellyfin-plugin-playlist-permissions/main/thumb.png",
+    "versions": [
+      {
+        "version": "1.0.0.0",
+        "changelog": "First release",
+        "targetAbi": "12.2.0.0",
+        "sourceUrl": "https://raw.githubusercontent.com/I-G-1-1/jellyfin-plugin-playlist-permissions/main/playlist-permissions-controller_1.0.0.0.zip",
+        "checksum": "a40fabaab3f1fcceedc39dc46aee8943",
+        "timestamp": "2026-10-16T16:37:11.0000000Z"
+      }
+    ]
+  }
+]

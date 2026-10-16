@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Playlist Permissions Controller</title>
+</head>
+<body>
+<div id="PlaylistPermissionsPage"
+     data-role="page"
+     class="page type-interior pluginConfigurationPage">
+
+    <div data-role="content">
+        <div class="content-primary">
+
+            <h1>Playlist Permissions Controller</h1>
+
+            <div style="max-width:640px;margin-bottom:32px">
+                <label for="audioOnly"
+                       style="display:flex;align-items:center;gap:12px;cursor:pointer;padding:12px;background:#252525;border-radius:6px">
+                    <input type="checkbox" id="audioOnly"
+                           style="width:18px;height:18px;cursor:pointer;flex-shrink:0" />
+                    <span style="font-weight:600">Audio playlists only</span>
+                </label>
+                <p style="color:#999;font-size:13px;margin:8px 0 0 0;line-height:1.5">
+                    When enabled, only playlists containing audio tracks are listed and
+                    managed here. Video playlists are hidden from this page (they are
+                    not modified). Disable to see every playlist, audio and video.
+                </p>
+            </div>
+
+            <h2>Current permissions</h2>
+            <div id="PermissionsTable">Loading…</div>
+
+            <div id="status"></div>
+        </div>
+    </div>
+
+    <dialog id="editDialog" style="border:1px solid #444;border-radius:8px;padding:24px;min-width:560px;max-width:720px;background:#222;color:#e0e0e0">
+        <h3 id="dialogTitle" style="margin-top:0;color:#00a4dc">Edit playlist</h3>
+        <div id="editBody"></div>
+        <div style="text-align:right;margin-top:20px">
+            <button onclick="document.getElementById('editDialog').close()"
+                    style="padding:8px 18px;border:none;border-radius:4px;background:#00a4dc;color:#fff;cursor:pointer">
+                Close
+            </button>
+        </div>
+    </dialog>
+
+    <script src="ConfigurationPage?name=PlaylistPermissions.js&amp;v=7"></script>
+</div>
+</body>
+</html>

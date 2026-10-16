@@ -1,0 +1,16 @@
+{
+  "guid": "f1a2b3c4-d5e6-47f8-9a0b-1c2d3e4f5a6b",
+  "name": "Playlist Permissions Controller",
+  "description": "Manage Jellyfin playlist edit permissions, tags and public access (admin only).",
+  "overview": "Admin-only playlist permission manager.",
+  "owner": "you",
+  "category": "General",
+  "targetAbi": "12.2.0.0",
+  "framework": "net10.0",
+  "version": "1.0.0.0",
+  "status": "Active",
+  "autoUpdate": false,
+  "assemblies": [
+    "Jellyfin.Plugin.PlaylistPermissions.dll"
+  ]
+}
