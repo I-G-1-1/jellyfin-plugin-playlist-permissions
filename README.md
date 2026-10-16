@@ -4,6 +4,29 @@ A Jellyfin plugin to manage playlist edit permissions, tags, and public access �
 
 Built for **Jellyfin 12.2** (.NET 10).
 
+> ### ⚠️ AI Disclosure
+>
+> This plugin was developed with substantial assistance from AI.
+> The majority of the code was generated through an iterative conversational process,
+> with the human author providing specifications, testing, and bug reports against a
+> live Jellyfin 12.2 instance. The plugin is functional and tested, but the code has
+> not been independently reviewed by a human developer. Please read the source or ask
+> someone you trust to review it before installing on a production server.
+
+## Screenshots
+
+### Permissions overview
+
+![Permissions overview](docs/main-view.png)
+
+### Editing a single playlist
+
+![Single playlist editor](docs/single-edit.png)
+
+### Bulk editing an owner's playlists
+
+![Bulk editor](docs/bulk-edit.png)
+
 ## Features
 
 - **Per-user edit permissions** — grant or revoke the `CanEdit` flag on any playlist for any user
@@ -209,12 +232,3 @@ By installing and using this plugin, you acknowledge and agree that:
 
 In short: the plugin is provided freely, it is used at your own risk, and the
 author accepts no responsibility for any harm that may result from its use.
-
-> ### ⚠️ AI Disclosure
->
-> This plugin was developed with substantial assistance from AI.
-> The majority of the code was generated through an iterative conversational process,
-> with the human author providing specifications, testing, and bug reports against a
-> live Jellyfin 12.2 instance. The plugin is functional and tested, but the code has
-> not been independently reviewed by a human developer. Please read the source or ask
-> someone you trust to review it before installing on a production server.
