@@ -13,8 +13,8 @@
         "changelog": "First release",
         "targetAbi": "12.2.0.0",
         "sourceUrl": "https://raw.githubusercontent.com/I-G-1-1/jellyfin-plugin-playlist-permissions/main/playlist-permissions-controller_1.0.0.0.zip",
-        "checksum": "446a6ea702cf1db7b0d6ccb190631b88",
-        "timestamp": "2026-10-16T17:11:30.0000000Z"
+        "checksum": "8b7f62a69feac5f9633f37fb02989016",
+        "timestamp": "2026-10-16T17:33:29.0000000Z"
       }
     ]
   }

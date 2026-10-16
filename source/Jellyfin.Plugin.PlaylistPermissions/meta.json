@@ -1,5 +1,5 @@
 {
-  "guid": "f1a2b3c4-d5e6-47f8-9a0b-1c2d3e4f5a6b",
+  "guid": "a58aa5a3-de24-416a-85d7-5117467f6969",
   "name": "Playlist Permissions Controller",
   "description": "Manage Jellyfin playlist edit permissions, tags and public access (admin only).",
   "overview": "Admin-only playlist permission manager.",
