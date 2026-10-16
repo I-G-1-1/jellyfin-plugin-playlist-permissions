@@ -1,7 +1,76 @@
+# --- Build artifacts ---
 bin/
 obj/
 publish/
 artifacts/
+upload/
 *.user
+
+# --- Windows system files ---
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+*.stackdump
+[Dd]esktop.ini
+
+# --- macOS system files ---
 .DS_Store
-**/.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+.fseventsd
+Icon?
+
+# --- Linux system files ---
+*~
+.directory
+.Trash-*
+nohup.out
+
+# --- Secrets & credentials ---
+.env
+.env.*
+!.env.example
+*.pfx
+*.p12
+*.key
+*.pem
+*.crt
+secrets.json
+appsettings.*.json
+appsettings.Development.json
+credentials.json
+api-keys.txt
+*.secret
+*.token
+
+# --- IDE & editor files ---
+.vs/
+.vscode/
+.idea/
+*.suo
+*.userosscache
+*.sln.docstates
+*.swp
+*.swo
+*~
+
+# --- .NET specific ---
+project.lock.json
+project.fragment.lock.json
+*.nupkg
+*.snupkg
+TestResults/
+coverage*.json
+coverage*.xml
+coverage*.info
+*.coverage
+*.coveragexml
+.vsconfig
+.nuget/
