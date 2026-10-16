@@ -3,7 +3,7 @@
   "name": "Playlist Permissions Controller",
   "description": "Manage Jellyfin playlist edit permissions, tags and public access (admin only).",
   "overview": "Admin-only playlist permission manager.",
-  "owner": "you",
+  "owner": "I-G-1-1",
   "category": "General",
   "targetAbi": "12.2.0.0",
   "framework": "net10.0",
