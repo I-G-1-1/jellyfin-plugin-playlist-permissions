@@ -179,6 +179,37 @@ MIT — see [LICENSE](LICENSE) for details.
 
 Inspired by the original `JFPllstAccssCntrll.py` script, reimplemented as a native Jellyfin plugin.
 
+## Disclaimer of Liability
+
+This plugin modifies Jellyfin playlist metadata, including user permissions,
+tags, and public access flags. While it uses Jellyfin's own library manager
+APIs and has been tested against a live server, **no software is guaranteed
+to be free of defects**.
+
+By installing and using this plugin, you acknowledge and agree that:
+
+- The author provides this software **"as is"**, without warranty of any kind,
+  express or implied, including but not limited to the warranties of
+  merchantability, fitness for a particular purpose, and non-infringement.
+- The author is **not liable** for any claim, damages, or other liability —
+  whether in an action of contract, tort, or otherwise — arising from, out of,
+  or in connection with the software or its use.
+- This includes, without limitation, **loss of data, corruption of playlist
+  metadata, loss of user permissions, unintended exposure of playlists through
+  the "public access" feature, service interruptions, or any other direct,
+  indirect, incidental, special, exemplary, or consequential damages**.
+- **You are responsible** for testing this plugin in a non-production
+  environment before deploying it to a server that holds data you care about.
+- **You are responsible** for maintaining backups of your Jellyfin
+  configuration and database. The default location is
+  `/var/lib/jellyfin/data/` (Linux) or `%LOCALAPPDATA%\jellyfin\data\` (Windows).
+- **You are responsible** for reviewing the source code — or having someone
+  qualified review it on your behalf — if you need assurance about its
+  behaviour before running it on a production system.
+
+In short: the plugin is provided freely, it is used at your own risk, and the
+author accepts no responsibility for any harm that may result from its use.
+
 > ### ⚠️ AI Disclosure
 >
 > This plugin was developed with substantial assistance from AI.
